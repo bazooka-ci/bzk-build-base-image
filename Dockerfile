@@ -21,3 +21,4 @@ RUN npm install -g bower
 # Install gox and build the toolchain
 RUN go get github.com/mitchellh/gox
 RUN gox -build-toolchain
+RUN go get github.com/kisielk/errcheck
